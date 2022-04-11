@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="grocery_store.css">
+    <script src="grocery_store.js"></script>
+
+    <title>Groceries</title>
+</head>
+
+<body>
+    <h1><a href="index.html">Back to Index</a></h1>
+    <ul>
+        <li>
+            Create lists of store "presets" like "Light, Medium, Full, etc"
+        </li>
+        <li>
+            Create option to add individual items that we would normall add
+
+        </li>
+        <li>
+            Create option to add/remove items from list
+
+        </li>
+        <li>
+            Create option to check off items from list
+        </li>
+    </ul><br><br>
+
+    <!-- Add Item: <input type="text" id="item-to-add"> <br>
+    Remove Item: <input type="text" id="item-to-remove"> <br> -->
+
+    <div class="container-app">
+        <div class="container-current-list">
+            <h1>Current List</h1>
+
+            <ul id="current-list">
+
+            </ul>
+
+        </div>
+
+        <div class="container-input">
+            <h1>Grocery List</h1>
+            <input id="user-input-box" type="text"><br><br>
+            <button id="add-to-list" onclick="addToCurrentList()">Add Item</button>
+            <button id="remove-from-list" onclick="removeFromCurrentList()">Remove Item</button>
+            <button id="view-list" onclick="populateCurrentList()">Load Preset</button>
+        </div>
+
+    </div>
+
+    <script>
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

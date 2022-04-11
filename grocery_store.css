@@ -1,0 +1,25 @@
+.container-app {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row-reverse;
+
+    /* Visuals */
+    border: 3px solid red;
+    padding: 2px;
+}
+
+.container-current-list {
+    margin: auto;
+    width: 500px;
+    border: 3px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-input {
+    margin: auto;
+    width: 500px;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
